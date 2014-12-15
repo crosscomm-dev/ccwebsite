@@ -8,7 +8,7 @@
     padding: 20px 10px;
   }
   #home .subtitle {
-    font-size: 2em;    
+    font-size: 2em;
   }
   #what_we_do .platforms {
     margin-bottom: 50px;
@@ -36,8 +36,8 @@
   #what_we_do .services .row-2 div[class*="col-"],
   #what_we_do .services .row-3 div[class*="col-"] {
     padding: 0px 0px 20px 0px;
-    border: none;    
-  }  
+    border: none;
+  }
   #what_we_do .clients .content {
     display: block;
   }
@@ -87,7 +87,7 @@
     padding: 0px;
     margin-bottom: 50px;
   }
-#connect_content .content div:first-child { 
+#connect_content .content div:first-child {
   padding-top: 0px;
   padding-bottom:50px;
 }
@@ -102,7 +102,7 @@
   #top-menu {
     max-height: none;
     background-color: rgb(136, 182, 212);
-    background-color: rgba(136, 182, 212, 0.86);    
+    background-color: rgba(136, 182, 212, 0.86);
     z-index: 9999;
   }
   .navbar-nav {
@@ -124,7 +124,7 @@
   #what_we_do .services .title {
     font-size: 3em;
     margin-top: 40px;
-  }  
+  }
   #what_we_do .services a {
     margin-top: 0px;
     font-size: 1em;
@@ -136,7 +136,7 @@
   }
   #what_we_do .clients .row {
     margin-bottom: 0px;
-  }  
+  }
   #what_we_do .platforms {
     margin-bottom: 60px;
   }
@@ -144,7 +144,7 @@
     font-size: 3em;
     margin-top: 20px;
     margin-bottom: 40px;
-  } 
+  }
   #what_we_do .platforms .description {
     margin-bottom: 20px;
   }
@@ -152,8 +152,8 @@
     display: inline-block;
   }
   .screen-sm {
-  margin-right: 20px; 
-  }  
+  margin-right: 20px;
+  }
   #how_we_do_it .testimonial {
     margin: 30% auto;
   }
@@ -183,18 +183,18 @@
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     text-decoration: none;
-    text-align: center;    
+    text-align: center;
     background-color: #7ac754;
-    border-radius: 50%;        
-    margin: 0 auto; 
-    margin-bottom: 15px;       
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 15px;
   }
   #sherpa .description-mobile .green-circle > div {
-    top: 45%;  
-    position: relative;    
+    top: 45%;
+    position: relative;
   }
   #sherpa .description-mobile .green-circle > div.lines2 {
-    top: 40%;      
+    top: 40%;
   }
   #sherpa .slide-content {
     padding-top: 100px;
@@ -202,7 +202,7 @@
   }
   #about_us .slide-container {
     display: block;
-  } 
+  }
   #about_us .slide-content {
     display: block;
   }
@@ -215,8 +215,8 @@
     margin-bottom: 50px;
   }
   #about_us_content .navigation ul li {
-    display: block;    
-    font-size: 
+    display: block;
+    font-size:
   }
   #about_us_content .navigation ul li a {
     font-size: 1.4em;
@@ -238,7 +238,7 @@
   #about_us_content .navigation {
     display: none;
   }
-  #about-slides .item { 
+  #about-slides .item {
     display:block;
     padding-bottom:30px;
   }
@@ -255,7 +255,7 @@
   #about_us_content .our-story .highlights .row-1 div[class*=col-]:first-child {
     padding-top: 20px;
     padding-bottom: 20px;
-    display: block;    
+    display: block;
   }
   #about_us_content .our-story .highlights div[class*=row-] {
     border: none;
@@ -290,7 +290,7 @@
     margin-bottom: 60px;
   }
   #about_us_content .careers .bg {
-    margin-bottom: -450px;    
+    margin-bottom: -450px;
   }
   #about_us_content .careers .title-mobile > div:nth-child(1) > img {
     width: 80%;
@@ -302,7 +302,7 @@
     font-weight: 600;
     font-size: 2.5em;
     margin-bottom: 20px;
-    margin-top: 15px;    
+    margin-top: 15px;
   }
   #about_us_content .careers .content {
     margin-bottom: 0px;
@@ -331,7 +331,7 @@
   }
   #connect .slide-background {
     padding-bottom: 50px;
-  }  
+  }
 }
 @media (max-width: 479px) {
   #home .subtitle {
@@ -344,13 +344,24 @@
   #hire_us_content .title {
     font-size: 2.5em;
   }
+  #hire_us_content #hireUsForm input::-webkit-input-placeholder,
+  #hire_us_content #hireUsForm textarea::-webkit-input-placeholder {
+    font-size: 0.65em;
+  }
+  #hire_us_content #hireUsForm select {
+    font-size: 0.85em;
+    padding: 0 0 0 30px;
+    background: transparent url('../img/img_select_drop.png') no-repeat right 10px center;
+    background-size: 20px;
+    background-color: white;
+  }
   #about_us_content .why-we-exist .title {
     font-size: 2em;
   }
-#connect_content .content div:first-child { 
+#connect_content .content div:first-child {
   padding-top: 50px;
   padding-bottom: 20px;
-  
+
 }
   #connect .content a {
     width: 60px;
@@ -373,7 +384,7 @@
     margin-top: 50px;
   }
   #about_us_content .careers .content .ads .btn-job {
-    font-size: 1.2em;    
+    font-size: 1.2em;
   }
 
 }
@@ -393,12 +404,12 @@
   }
   #case_study_1 .content .before-site {
     padding-top: 40px;
-    padding-bottom: 40px;    
+    padding-bottom: 40px;
   }
   #case_study_1 .content .img-responsive {
     display: inline-block;
   }
-  #case_study_1 .content .before-site > div:nth-child(1) {    
+  #case_study_1 .content .before-site > div:nth-child(1) {
     float: none;
     margin-bottom: 30px;
   }
