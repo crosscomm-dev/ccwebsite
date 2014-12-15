@@ -1,0 +1,48 @@
+.ie9 .img-responsive,
+.ie8 .img-responsive {
+  width: auto !important;
+}
+.ie9 .navbar {
+  background: transparent;
+}
+.ie8 .navbar {
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#88b6d4, endColorstr=#88b6d4)";
+}
+.ie8 .blue-circle,
+.ie8 .green-circle,
+.ie8 .green-mark {  
+    behavior: url(css/pie.htc);  
+}
+
+.ie8 #about_us_content .careers .content .reason .green-mark {
+  behavior: url(css/pie.htc);  
+  display: block;
+  color: #111;
+}
+ 
+.ie8 .slide-background {
+  background-attachment: fixed;
+  
+}
+
+.ie8 #about_us_content .careers .bg {
+  background: url(http://localhost/crosscomm/css/../img/bg_we_care.jpg) no-repeat top center;
+}
+.ieframe {
+  background-color: #c0392b;
+  color: #fff;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 999999;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.navbar-fixed-top {
+  top: 50px;
+}
+.ie9 .navbar-fixed-top {
+  top: 0px;
+}
