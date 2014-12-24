@@ -1,6 +1,23 @@
-@media (max-width: 1280px) and (min-width: 991px) {
+@media (max-width: 1280px) and (min-width: 992px) {
   #what_we_do .services .row div[class^="col-"] {
     padding: 20px 0px;
+  }
+}
+@media (min-width: 992px) {
+  #about_us_content .careers .content .reasons {
+    margin-bottom: 60px;
+  }
+  #about_us_content .careers .content .reasons .col-md-6:first-child {
+    padding-left: 10%;
+    padding-right: 5%;
+  }
+  #about_us_content .careers .content .reasons .col-md-6:nth-child(2) {
+    padding-left: 5%;
+    padding-right: 10%;
+  }
+  #about_us_content .careers .content .reason {
+    height: 100px;
+    line-height: 1.4em;
   }
 }
 @media (max-width: 1023px) {
@@ -483,5 +500,14 @@
   }
   #case_study_1 .content .after-site > div:nth-child(3) .link {
     font-size: 2em;
+  }
+
+  /* separate form elements for different text values depending on screen width
+     solution w/o any JS requires duplicate of entire element */
+  #hire_us_content #hireUsForm .long {
+    display: none;
+  }
+  #hire_us_content #hireUsForm .short {
+    display: inherit;
   }
 }

@@ -781,18 +781,6 @@ html, body {
 #about_us_content .careers .content .reasons {
   margin-bottom: 60px;
 }
-#about_us_content .careers .content .reasons .col-md-6:first-child {
-  padding-left: 10%;
-  padding-right: 5%;
-}
-#about_us_content .careers .content .reasons .col-md-6:nth-child(2) {
-  padding-left: 5%;
-  padding-right: 10%;
-}
-#about_us_content .careers .content .reason {
-  height: 100px;
-  line-height: 1.4em;
-}
 #about_us_content .careers .content .reason .green-mark {
   color: #fff;
   background-color: #8bc53e;
@@ -904,9 +892,11 @@ html, body {
   border: none;
   background: transparent url('../img/img_select_drop.png') no-repeat right 30px center;
   background-color: #fff;
-  padding: 0px 0px 0px 20px;
+  padding: 0px 0px 0px 30px;
   cursor: pointer;
 }
+/* separate form elements for different text values depending on screen width */
+
 #hire_us_content #hireUsForm select option {
   color: #8eb6d5;
   font-weight: 700;
@@ -944,6 +934,14 @@ html, body {
   width: 100%;
   margin-top: 30px;
   margin-bottom:15px;
+}
+/* separate form elements for different text values depending on screen width
+solution w/o any JS requires duplicate of entire element */
+#hire_us_content #hireUsForm .long {
+  display: inherit;
+}
+#hire_us_content #hireUsForm .short {
+  display: none;
 }
 
 /*------------------------*\
