@@ -19,7 +19,7 @@
     $CONNECT
   $CASE STUDY 1
   $CASE STUDY 1
-  
+
 \*-----------------------*/
 
 /* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
@@ -48,7 +48,7 @@ a:focus, a:active, button::-moz-focus-inner,input[type="reset"]::-moz-focus-inne
 html, body {
 	height:100%;
 	min-height: 100%;
-	background-color: #fff;	
+	background-color: #fff;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 }
@@ -65,7 +65,7 @@ html, body {
 	height: 70px;
 	background-color: rgb(136, 182, 212);
 	background-color: rgba(136, 182, 212, 0.86);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#88b6d4, endColorstr=#88b6d4);	
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#88b6d4, endColorstr=#88b6d4);
     z-index: 9999;
 }
 .navbar-header {
@@ -91,7 +91,7 @@ html, body {
 .navbar-nav li a.top-menu {
   color: #fff;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;		
+  font-family: 'Montserrat', sans-serif;
   padding: 5px 25px;
   background-color: inherit;
   -webkit-transition: background-color 0.4s ease;
@@ -102,7 +102,7 @@ html, body {
 }
 .navbar-nav li a.top-menu:hover,
 .navbar-nav li a.top-menu.selected {
-  background-color: #609CC3;	
+  background-color: #609CC3;
 }
 
 /*------------------------*\
@@ -149,13 +149,13 @@ html, body {
   text-transform: uppercase;
   text-align: center;
   z-index: 999;
-  background-color: #88b6d4;  
-  -webkit-border-radius: 50%;  
+  background-color: #88b6d4;
+  -webkit-border-radius: 50%;
      -moz-border-radius: 50%;
           border-radius: 50%;
   position: absolute;
-  bottom: -75px;  
-  left: 50%;  
+  bottom: -75px;
+  left: 50%;
   margin-left: -75px;
 }
 .blue-circle > div {
@@ -168,7 +168,7 @@ html, body {
   $HOME
 \*------------------------*/
 #home .slide-background {
-	background-image:url('../img/bg_home.jpg');	
+	background-image:url('../img/bg_home.jpg');
 }
 #home .title {
 	background-color: rgb(255, 255, 255);
@@ -176,12 +176,12 @@ html, body {
 	padding: 60px 10px;
 }
 #home .title > .img-responsive {
-	margin: 0 auto;	
+	margin: 0 auto;
 }
 #home .subtitle {
 	color: #fff;
 	background-color: rgb(136, 182, 212);
-	font-family: 'Montserrat', sans-serif;	
+	font-family: 'Montserrat', sans-serif;
 	font-size: 2.5em;
 	font-weight: 300;
 	width: 60%;
@@ -198,14 +198,14 @@ html, body {
 #what_we_do .slide-content {
   padding-top: 80px;
 }
-#what_we_do .blue-circle {  
-  top: -75px; 
+#what_we_do .blue-circle {
+  top: -75px;
 }
 #what_we_do .services {
   margin-bottom: 70px;
 }
 #what_we_do .services .title {
-  color: #686868;  
+  color: #686868;
   font-family: 'Rokkitt', sans-serif;
   font-size: 5em;
   margin-top: 50px;
@@ -240,13 +240,13 @@ html, body {
   font-size: 1.3em;
   line-height: 1.2em;
   text-transform: uppercase;
-  text-decoration: none;  
+  text-decoration: none;
   -webkit-transition:background 0.4s ease-in-out;
    -moz-transition:background 0.4s ease-in-out;
      -o-transition:background 0.4s ease-in-out;
         transition:background 0.4s ease-in-out;
-  transition: all 0.4s ease;  
-  display: inline-block;  
+  transition: all 0.4s ease;
+  display: inline-block;
   height: 50px;
   padding-top: 60px;
   margin-top: 20px;
@@ -261,34 +261,34 @@ html, body {
   background-size: 50px !important;
 }
 #what_we_do .services a.logo-ios {
-  background: url('../img/logo/logo_ios.png') no-repeat top center;     
+  background: url('../img/logo/logo_ios.png') no-repeat top center;
 }
 #what_we_do .services a.logo-android {
-  background: url('../img/logo/logo_android.png') no-repeat top center;     
+  background: url('../img/logo/logo_android.png') no-repeat top center;
 }
 #what_we_do .services a.logo-design {
-  background: url('../img/logo/logo_design.png') no-repeat top center;     
+  background: url('../img/logo/logo_design.png') no-repeat top center;
 }
 #what_we_do .services a.logo-server {
-  background: url('../img/logo/logo_server.png') no-repeat top center;  
+  background: url('../img/logo/logo_server.png') no-repeat top center;
 }
 #what_we_do .services a.logo-performance {
-  background: url('../img/logo/logo_performance.png') no-repeat top center;  
+  background: url('../img/logo/logo_performance.png') no-repeat top center;
 }
 #what_we_do .services a.logo-development {
-  background: url('../img/logo/logo_development.png') no-repeat top center;  
+  background: url('../img/logo/logo_development.png') no-repeat top center;
 }
 #what_we_do .services a.logo-hosting {
-  background: url('../img/logo/logo_hosting.png') no-repeat top center;  
+  background: url('../img/logo/logo_hosting.png') no-repeat top center;
 }
 #what_we_do .services a.logo-websites {
-  background: url('../img/logo/logo_websites.png') no-repeat top center;  
+  background: url('../img/logo/logo_websites.png') no-repeat top center;
 }
 #what_we_do .services a.logo-consulting {
-  background: url('../img/logo/logo_consulting.png') no-repeat top center;  
+  background: url('../img/logo/logo_consulting.png') no-repeat top center;
 }
 #what_we_do .services a.logo-audits {
-  background: url('../img/logo/logo_audits.png') no-repeat top center;  
+  background: url('../img/logo/logo_audits.png') no-repeat top center;
 }
 
 #what_we_do .clients .title {
@@ -328,14 +328,14 @@ html, body {
 }
 #what_we_do .platforms .subtitle {
   color: #88b6d4;
-  font-family: 'Montserrat', sans-serif;  
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.3em;
   text-transform: uppercase;
-  margin-top: 50px;  
+  margin-top: 50px;
 }
 #what_we_do .platforms .description {
   color: #b3b3b3;
-  font-family: 'Montserrat', sans-serif;  
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.2em;
   font-weight: 400;
   line-height: 2;
@@ -355,7 +355,7 @@ html, body {
   $HOW WE DO IT
 \*------------------------*/
 #how_we_do_it .slide-background {
-  background-image:url('../img/bg_how.jpg');  
+  background-image:url('../img/bg_how.jpg');
 }
 #how_we_do_it .testimonial {
   margin: 20% auto;
@@ -381,7 +381,7 @@ html, body {
   $SHERPA
 \*------------------------*/
 #sherpa {
-  background-color: #fff;  
+  background-color: #fff;
 }
 #sherpa .slide-content {
   padding-top: 120px;
@@ -409,7 +409,7 @@ html, body {
   opacity: 0;
 }
 #sherpa .description > div.showing,
-#sherpa .description-tablet > div.showing {  
+#sherpa .description-tablet > div.showing {
   display: block;
   opacity: 1;
 }
@@ -457,12 +457,12 @@ html, body {
   text-decoration: none;
   text-align: center;
   background-color: #7ac754;
-  -webkit-border-radius: 50%;  
+  -webkit-border-radius: 50%;
      -moz-border-radius: 50%;
           border-radius: 50%;
   position: absolute;
-  /*bottom: -70px;  
-  left: 50%;*/  
+  /*bottom: -70px;
+  left: 50%;*/
   margin-left: -70px;
   z-index: 2;
   cursor: pointer;
@@ -478,9 +478,9 @@ html, body {
   background-color: #5a973b;
   text-decoration: none;
 }
-#sherpa .mountain .green-circle > div {  
+#sherpa .mountain .green-circle > div {
   position: relative;
-  top: 50%;  
+  top: 50%;
   margin-top: -5px;
 }
 
@@ -511,8 +511,8 @@ html, body {
   padding: 0px;
   margin: 0px;
 }
-#about_us_content .navigation ul li {  
-  display: inline-block;  
+#about_us_content .navigation ul li {
+  display: inline-block;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -586,7 +586,7 @@ html, body {
 }
 #about_us_content .overview .timeline .content {
   padding-top: 70px;
-  margin-bottom: 100px; 
+  margin-bottom: 100px;
 /*  padding: 60px 0px 80px;*/
 }
 
@@ -599,7 +599,7 @@ html, body {
   background-position: top center;
   height: 200px;
   width: 200px;
-  margin: 0 auto 20px;  
+  margin: 0 auto 20px;
   cursor: pointer;
   -webkit-transition:background 0.4s ease-in-out;
    -moz-transition:background 0.4s ease-in-out;
@@ -622,18 +622,18 @@ html, body {
 #about_us_content .leadership .member .name {
   color: #686868;
   font-family: 'Rokkitt', sans-serif;
-  font-size: 2.5em;  
+  font-size: 2.5em;
   font-weight: 700;
   margin-bottom: 5px;
 }
 #about_us_content .leadership .member .title {
   color: #88b6d4;
-  font-size: 1.2em;  
+  font-size: 1.2em;
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
-#about_us_content .leadership .member .bio {  
+#about_us_content .leadership .member .bio {
   font-family: "Montserrat", sans-serif;
   color: #b3b3b3;
   line-height: 1.5em;
@@ -645,12 +645,12 @@ html, body {
 #about_us_content .leadership .member .social ul li {
   display: inline-block;
   margin-left: 10px;
-  margin-right: 10px;  
+  margin-right: 10px;
 }
 #about_us_content .leadership .member .social ul li a {
   display: block;
   width: 30px;
-  height: 30px;  
+  height: 30px;
 }
 #about_us_content .leadership .member .skills ul {
   padding-left: 50px;
@@ -662,7 +662,7 @@ html, body {
   font-size: 0.9em;
   text-align: left;
   padding-left: 30px;
-  margin-bottom: 10px;  
+  margin-bottom: 10px;
 }
 #about_us_content .leadership .member .social ul li .facebook {
   background: url('../img/icon_social_facebook.png') no-repeat center center;
@@ -685,17 +685,17 @@ html, body {
   color: #686868;
   font-family: "Rokkitt", sans-serif;
   font-size: 3.5em;
-  padding: 20px 50px 120px;    
+  padding: 20px 50px 120px;
   margin-bottom: 50px;
 }
 #about_us_content .why-we-exist .title > .blue {
-  color: #89b6d5;  
+  color: #89b6d5;
 }
 #about_us_content .why-we-exist .content {
-  margin-bottom: 50px;    
+  margin-bottom: 50px;
 }
 #about_us_content .why-we-exist .content img {
-  margin: 10px 5px;  
+  margin: 10px 5px;
 }
 #about_us_content .why-we-exist .content img.block {
   display: block;
@@ -726,7 +726,7 @@ html, body {
 }
 #about_us_content .our-culture .content div:first-child {
   line-height: 1.5em;
-  margin-bottom: 80px;  
+  margin-bottom: 80px;
 }
 #about_us_content .our-culture .content {
   font-family: "Montserrat", sans-serif;
@@ -740,7 +740,7 @@ html, body {
   font-size: 2em;
   font-weight: 700;
   padding: 10px 30px;
-  -webkit-border-radius: 10px;  
+  -webkit-border-radius: 10px;
      -moz-border-radius: 10px;
           border-radius: 10px;
 }
@@ -757,7 +757,7 @@ html, body {
   font-family: "Rokkitt", sans-serif;
   font-weight: 600;
   font-size: 3.5em;
-  margin-bottom: 200px;
+  margin-bottom: 175px;
   display: table;
 }
 #about_us_content .careers .title span[class*=col-] {
@@ -781,15 +781,27 @@ html, body {
 #about_us_content .careers .content .reasons {
   margin-bottom: 60px;
 }
+#about_us_content .careers .content .reasons .col-md-6:first-child {
+  padding-left: 10%;
+  padding-right: 5%;
+}
+#about_us_content .careers .content .reasons .col-md-6:nth-child(2) {
+  padding-left: 5%;
+  padding-right: 10%;
+}
+#about_us_content .careers .content .reason {
+  height: 100px;
+  line-height: 1.4em;
+}
 #about_us_content .careers .content .reason .green-mark {
   color: #fff;
-  background-color: #8bc53e; 
-  font-family: "Rokkitt", sans-serif; 
+  background-color: #8bc53e;
+  font-family: "Rokkitt", sans-serif;
   font-size: 1.6em;
   line-height: 1.6em;
   width: 40px;
   height: 40px;
-  -webkit-border-radius: 50%;  
+  -webkit-border-radius: 50%;
      -moz-border-radius: 50%;
           border-radius: 50%;
   margin: 0 auto;
@@ -798,7 +810,7 @@ html, body {
 #about_us_content .careers .content .reason {
   margin-bottom: 15px;
 }
-#about_us_content .careers .content .ads {  
+#about_us_content .careers .content .ads {
   margin-bottom: 100px;
 }
 #about_us_content .careers .content .ads .btn-join {
@@ -806,9 +818,9 @@ html, body {
   background-color: #8bc53e;
   font-family: "Rokkitt", sans-serif;
   font-size: 2em;
-  font-weight: 700;  
+  font-weight: 700;
   padding: 10px 50px;
-  -webkit-border-radius: 10px;  
+  -webkit-border-radius: 10px;
      -moz-border-radius: 10px;
           border-radius: 10px;
 }
@@ -819,8 +831,8 @@ html, body {
   font-size: 1.8em;
   font-weight: 700;
   width: 100%;
-  padding: 15px 30px;  
-  -webkit-border-radius: 10px;  
+  padding: 15px 30px;
+  -webkit-border-radius: 10px;
      -moz-border-radius: 10px;
           border-radius: 10px;
   margin-bottom: 20px;
@@ -838,7 +850,7 @@ html, body {
   $HIRE US
 \*------------------------*/
 #hire_us .slide-background {
-  background-image:url('../img/bg_hire_us.jpg');  
+  background-image:url('../img/bg_hire_us.jpg');
 }
 #hire_us .title {
   color: #fff;
@@ -880,15 +892,15 @@ html, body {
   appearance: textfield;
 }
 #hire_us_content #hireUsForm select {
-  height: 60px;      
+  height: 60px;
   color: #8eb6d5;
-  font-weight: 700;  
+  font-weight: 700;
   text-indent: 1px;
-  line-height: 1em;  
+  line-height: 1em;
   width: 100%;
   -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none;    
+  appearance: none;
   border: none;
   background: transparent url('../img/img_select_drop.png') no-repeat right 30px center;
   background-color: #fff;
@@ -929,9 +941,9 @@ html, body {
   font-family: "Rokkitt", sans-serif;
   font-weight: 700;
   font-size: 2em;
-  width: 100%; 
-  margin-top: 30px; 
-  margin-bottom:15px;	
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom:15px;
 }
 
 /*------------------------*\
@@ -939,7 +951,7 @@ html, body {
 \*------------------------*/
 
 #connect .slide-background {
-	background-image:url('../img/bg_connect.jpg');	
+	background-image:url('../img/bg_connect.jpg');
 
 }
 #connect .slide-background {
@@ -958,7 +970,7 @@ html, body {
 #connect_content .content div:first-child {
   color: #686868;
   font-family: "Rokkitt", sans-serif;
-  font-size: 3.5em;  
+  font-size: 3.5em;
   padding-top: 50px;
 }
 #connect_content .content div:last-child {
@@ -1022,7 +1034,7 @@ color:#fff;
   $CASE STUDY 1
 \*------------------------*/
 #client {
-  background-color: #fff;  
+  background-color: #fff;
 }
 #client .client-logo {
   background-color: #fff;
@@ -1042,14 +1054,14 @@ color:#fff;
 }
 #case_study_1 .blue-header {
   color: #fff;
-  background-color: #5c96bc;  
+  background-color: #5c96bc;
   padding-top: 130px;
   padding-bottom: 120px;
 }
 #case_study_1 .blue-header .title {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
-  font-size: 1.3em;  
+  font-size: 1.3em;
   margin-bottom: 40px;
 }
 #case_study_1 .blue-header .description {
@@ -1070,7 +1082,7 @@ color:#fff;
   padding-bottom: 80px;
 }
 #case_study_1 .content .before-site > div:first-child {
-  color: #b3b3b3;  
+  color: #b3b3b3;
   font-size: 1.2em;
   line-height: 1.8em;
   text-align: left;
@@ -1087,23 +1099,23 @@ color:#fff;
   font-family: "Montserrat", sans-serif;
 }
 #case_study_1 .content .after-site > div:first-child {
-  color: #b3b3b3;  
+  color: #b3b3b3;
   font-size: 1.2em;
   line-height: 1.8em;
-  text-align: center;  
+  text-align: center;
   margin-bottom: 50px;
   text-align: left;
 }
 #case_study_1 .content .after-site > div:first-child > div {
   color: #88b6d4;
   font-size: 1.3em;
-  text-transform: uppercase; 
+  text-transform: uppercase;
   text-align: center;
-  margin-bottom: 10px;   
+  margin-bottom: 10px;
 }
 #case_study_1 .content .after-site > div:nth-child(3) .link {
   color: #575757;
-  font-family: "Rokkitt", sans-serif;  
+  font-family: "Rokkitt", sans-serif;
   font-size: 2.2em;
   font-weight: 700;
   margin-top: 20px;
@@ -1119,11 +1131,11 @@ color:#fff;
 #case_study_1 .content .after-site .launch-project {
   color: #fff;
   background-color: #8bc53e;
-  font-family: "Rokkitt", sans-serif;  
+  font-family: "Rokkitt", sans-serif;
   font-size: 2em;
   font-weight: 600;
   padding: 15px 40px;
-  -webkit-border-radius: 10px;  
+  -webkit-border-radius: 10px;
      -moz-border-radius: 10px;
           border-radius: 10px;
 }
@@ -1135,7 +1147,7 @@ color:#fff;
   top: -75px;
 }
 #case_study_2 .application {
-  background: url('../img/case_2/bg_case.jpg') no-repeat center center;  
+  background: url('../img/case_2/bg_case.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1144,7 +1156,7 @@ color:#fff;
 }
 #case_study_2 .application .phases-1 {
   border-bottom: 2px solid #fff;
-  padding-bottom: 50px;  
+  padding-bottom: 50px;
 }
 #case_study_2 .application .phases-1 > div[class*=col-] {
   padding-left: 30px;
@@ -1164,7 +1176,7 @@ color:#fff;
   font-family: "Montserrat", sans-serif;
   font-size: 1.1em;
   text-align: left;
-  line-height: 1.4em;  
+  line-height: 1.4em;
 }
 #case_study_2 .application .phases-2 {
   margin-top: 50px;
@@ -1172,7 +1184,7 @@ color:#fff;
 }
 #case_study_2 .application .phases-2 .link {
   color: #fff;
-  font-family: "Rokkitt", sans-serif;  
+  font-family: "Rokkitt", sans-serif;
   font-size: 2.1em;
   margin-top: 50px;
 }
@@ -1186,11 +1198,11 @@ color:#fff;
 #case_study_2 .application .phases-2 .launch-project {
   color: #fff;
   background-color: #f7b913;
-  font-family: "Rokkitt", sans-serif;  
+  font-family: "Rokkitt", sans-serif;
   font-size: 2em;
   font-weight: 600;
   padding: 15px 40px;
-  -webkit-border-radius: 10px;  
+  -webkit-border-radius: 10px;
      -moz-border-radius: 10px;
           border-radius: 10px;
   margin-top: 50px;
@@ -1230,5 +1242,5 @@ color:#fff;
 #case_study_2 .screen-grabs .client-testimonial div:nth-child(2) {
   font-family: "Montserrat", sans-serif;
   font-size: 1.1em;
-  text-transform: uppercase;  
+  text-transform: uppercase;
 }
