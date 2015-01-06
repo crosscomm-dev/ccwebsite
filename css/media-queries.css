@@ -104,6 +104,9 @@
     padding: 0px;
     margin-bottom: 50px;
   }
+#connect_content {
+    padding-top: 80px;
+}
 #connect_content .content div:first-child {
   padding-top: 0px;
   padding-bottom:50px;
@@ -509,5 +512,10 @@
   }
   #hire_us_content #hireUsForm .short {
     display: inherit;
+  }
+
+  /* 80px when between 481px and 991px */
+  #connect_content {
+    padding-top: 30px;
   }
 }
