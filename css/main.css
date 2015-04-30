@@ -726,9 +726,15 @@ html, body {
   margin-top: 40px;
   margin-bottom: 20px;
 }
+#myCarousel {
+	width: 320px;
+}
+#myCarousel img {
+	height: auto;
+	width: 300px;
+}
 #about_us_content .our-culture .content div:first-child {
   line-height: 1.5em;
-  margin-bottom: 80px;
 }
 #about_us_content .our-culture .content {
   font-family: "Montserrat", sans-serif;
@@ -739,17 +745,20 @@ html, body {
   text-align: left;
   padding-bottom: 20px;
 }
-#about_us_content .our-culture .content .learn-more {
+#about_us_content .our-culture .content .btn {
   color: #fff;
-  background-color: #ff1d63;
+  background-color: #7ac754;
   font-family: "Rokkitt", sans-serif;
-  font-size: 2em;
   font-weight: 700;
-  padding: 10px 30px;
-  -webkit-border-radius: 10px;
-     -moz-border-radius: 10px;
-          border-radius: 10px;
-}
+  font-size: 1.3em;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 15px;
+	padding: 10px 30px;
+	  -webkit-border-radius: 10px;
+	     -moz-border-radius: 10px;
+	          border-radius: 10px;
+					}
 
 /* CAREERS */
 #about_us_content .careers .bg {
