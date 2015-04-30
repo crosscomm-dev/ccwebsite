@@ -407,6 +407,18 @@
     font-size: 1.2em;
   }
 
+
+  #about_us_content .our-culture .title {
+    font-size: 4.0em;
+  }
+  #about_us_content .our-culture .content {
+    font-size: 1.0em;
+  }
+  #about_us_content .our-culture p {
+    padding-bottom: 10px;
+    line-height: 1.1em;
+  }
+
 }
 
 
