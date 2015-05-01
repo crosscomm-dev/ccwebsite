@@ -1,0 +1,45 @@
+body#diversity {
+  background:
+}
+
+  body#diversity nav.navbar.navbar-fixed-top {
+    background-color: rgba(136,182,212,1);
+    position: fixed;
+  }
+
+  body#diversity section#about_us_content {
+    margin-top: 70px;
+  }
+
+  body#diversity .container {
+    text-align: center;
+  }
+
+  body#diversity .navbar-nav li {
+    padding: 20px 0 0 0;
+    /*3px for under 990*/
+    font-size: 0.9em;
+  }
+  body#diversity .navbar-nav li:first-child {
+    padding: 0;
+    background: #eee;
+  }
+  body#diversity .navbar-nav li img {
+    height: 54px;
+    /*100% width for mobile */
+  }
+
+
+  @media (max-width: 990px) {
+
+    body#diversity .navbar-nav li {
+      padding: 3px 0 0 0;
+    }
+  }
+
+  @media (max-width: 768px) {
+
+    body#diversity .navbar-nav li img {
+      width: 100%;
+    }
+  }
