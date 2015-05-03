@@ -1,9 +1,9 @@
 body#diversity {
-  background:
+  background: #fff;
 }
 
   body#diversity nav.navbar.navbar-fixed-top {
-    background-color: rgba(136,182,212,1);
+    background-color: #fff;
     position: fixed;
   }
 
@@ -13,6 +13,15 @@ body#diversity {
 
   body#diversity .container {
     text-align: center;
+
+  }
+
+  body#diversity div#diversity p {
+    color: #fff;
+  }
+
+  body#diversity #about_us_content .our-culture .title {
+    color: #333;
   }
 
   body#diversity .navbar-nav li {
@@ -22,12 +31,75 @@ body#diversity {
   }
   body#diversity .navbar-nav li:first-child {
     padding: 0;
-    background: #eee;
   }
   body#diversity .navbar-nav li img {
     height: 54px;
     /*100% width for mobile */
   }
+
+  body#diversity .navbar-nav li a {
+    color: #6b6b69;
+  }
+
+  body#diversity .navbar-nav li a.top-menu:hover,   body#diversity .navbar-nav li a.top-menu.selected {
+    background: #d4e5eb;
+  }
+
+  body#diversity #about_us_content .our-culture .content {
+    margin-bottom: 20px;
+  }
+
+  body#diversity .navbar-header button {
+    color: #111;
+    border: 1px solid #111;
+  }
+
+  body#diversity .chart {
+    margin: 0 auto;
+  }
+  body#diversity .chart iframe {
+    width: 100%;
+    height: 800px;
+  }
+
+  body#diversity #report {
+    background: #fff;
+    text-align: left;
+    padding: 20px;
+    font-size: 0.8em;
+    font-weight: normal;
+  }
+
+  body#diversity #report .chart-container{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+
+  body#diversity #report h2 {
+    font-weight: bold;
+  }
+
+  body#diversity #report h2 {
+    font-weight: bold;
+  }
+
+
+  body#diversity #report h3 {
+    font-size: 0.9em;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  body#diversity #report li {
+    font-size: 0.9em;
+    text-indent: 20px;
+  }
+
+  body#diversity #notes {
+    padding: 40px;
+  }
+
 
 
   @media (max-width: 990px) {
@@ -37,9 +109,12 @@ body#diversity {
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
 
     body#diversity .navbar-nav li img {
       width: 100%;
+    }
+    body#diversity #top-menu {
+      background: #eaeaea;
     }
   }
